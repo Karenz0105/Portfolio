@@ -10,12 +10,16 @@ To set up a Personal Development Enviroment, we first have to select an appropri
 
 We will first have to download Visual Studio which we can get from the [Microsoft](https://www.microsoft.com/en-gb/) website.
 
+![Microsoft Website](https://github.com/Karenz0105/Portfolio/blob/main/images/MicrosoftWebsite.png)
+
 From the Microsoft website we can click on the drop down menu that says "All Microsoft" and under the Developer & IT section there will be Visual Studio.
 When that text is clicked on it will then open the Visual Studio page where you can download Visual Studio from.
 
 Elsewise, you can just go to the [Visual Studio](https://visualstudio.microsoft.com) website.
 
 Within the Visual Studio page you can select from 3 versions to download.
+
+![Visual Studio Download](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioMicrosoft.png)
 
 We want to just install Visual Studio, so the first one that shows.
 When you hover over or click on the 'Download Visual Studio' there will be 3 versions that you can download.
@@ -24,6 +28,7 @@ Select the appropriate version that you will need. In most cases the Community v
 Your download will then begin or you will be prompted on where you would like to download the program.
 
 #### Another way to acquire Visual Studio
+
 However, if you are a student you can get the Enterprise version to use by going to [Azure](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software).
 
 ### Installing Visual Studio
@@ -42,11 +47,17 @@ Once all has been installed you will be ready to customise your Visual Studio an
 
 If you already have Visual Studio installed but don't have the workload you need installed, then there is an easy way to install it.
 
+![Modify Visual Studio](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInstaller.png)
+
 Firstly, open up the Visual Studio Installer and select 'Modify' on the version of Visual Studio you'd like to modify, depending if you have multiple versions installed.
+
+![Install Workloads](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInstallNet.png)
 
 After selecting modify you will then be able to select what workloads you would like to install into your Visual Studio.
 
 Once your choosen workloads are selected you can install them and they will be ready to use within Visual Studio.
+
+![Workloads Ready to user](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInProgram.png)
 
 
 
