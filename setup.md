@@ -4,7 +4,7 @@
 
 Our aim is to set up a Personal Development Enviroment using Visual Studio.
 
-### Downloading Enviroment
+## Downloading Enviroment
 
 To set up a Personal Development Enviroment, we first have to select an appropriate one to use. In this case we have choosen to use Visual Studio.
 
@@ -27,11 +27,11 @@ Select the appropriate version that you will need. In most cases the Community v
 
 Your download will then begin or you will be prompted on where you would like to download the program.
 
-#### Another way to acquire Visual Studio
+### Another way to acquire Visual Studio
 
 However, if you are a student you can get the Enterprise version to use by going to [Azure](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software).
 
-### Installing Visual Studio
+## Installing Visual Studio
 
 Once the program has finished downloading you can then install it.
 
@@ -43,7 +43,7 @@ You can either download your workloads while installing Visual Studio or downloa
 
 Once all has been installed you will be ready to customise your Visual Studio and use it.
 
-### Modifying Visual Studio
+## Modifying Visual Studio
 
 If you already have Visual Studio installed but don't have the workload you need installed, then there is an easy way to install it.
 
