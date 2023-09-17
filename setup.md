@@ -1,28 +1,33 @@
 # Setting Up a Personal Development Enviroment
 
+
 ## Aim
 
 Our aim is to set up a Personal Development Enviroment using Visual Studio.
 
+
 ## Downloading Enviroment
 
-To set up a Personal Development Enviroment, we first have to select an appropriate one to use. In this case we have choosen to use Visual Studio.
+To set up a Personal Development Enviroment, we first have to select an appropriate one to use. In this case we have chosen to use Visual Studio.
 
 We will first have to download Visual Studio which we can get from the [Microsoft](https://www.microsoft.com/en-gb/) website.
 
 ![Microsoft Website](https://github.com/Karenz0105/Portfolio/blob/main/images/MicrosoftWebsite.png)
 
-From the Microsoft website we can click on the drop down menu that says "All Microsoft" and under the Developer & IT section there will be Visual Studio.
-When that text is clicked on it will then open the Visual Studio page where you can download Visual Studio from.
+From the Microsoft website we can click on the drop down menu that says 'All Microsoft' and under the 'Developer & IT' section there will be 'Visual Studio'.
 
-Elsewise, you can just go to the [Visual Studio](https://visualstudio.microsoft.com) website.
+When you select 'Visual Studio', you will then be taken to the Visual Studio page where you will be able to download the program.
 
-Within the Visual Studio page you can select from 3 versions to download.
+Elsewise, you can go to the [Visual Studio](https://visualstudio.microsoft.com) website.
+
+Within this page there will be 3 different versions of Visual Studio you can download.
 
 ![Visual Studio Download](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioMicrosoft.png)
 
-We want to just install Visual Studio, so the first one that shows.
-When you hover over or click on the 'Download Visual Studio' there will be 3 versions that you can download.
+Download the version of Visual Studio that is just called 'Visual Studio'. (It should be the 1st option, it also includes a Windows logo.)
+
+When you hover over or click on the 'Download Visual Studio' button there will be 3 versions that you can download.
+
 Select the appropriate version that you will need. In most cases the Community version will be fine.
 
 Your download will then begin or you will be prompted on where you would like to download the program.
@@ -30,6 +35,9 @@ Your download will then begin or you will be prompted on where you would like to
 ### Another way to acquire Visual Studio
 
 However, if you are a student you can get the Enterprise version to use by going to [Azure](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software).
+
+You will need to enter your student email, if you have not used Azure before you may need to sign up first by using your student email.
+
 
 ## Installing Visual Studio
 
@@ -53,32 +61,66 @@ Firstly, open up the Visual Studio Installer and select 'Modify' on the version 
 
 ![Install Workloads](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInstallNet.png)
 
-After selecting modify you will then be able to select what workloads you would like to install into your Visual Studio.
+After selecting modify, you will then be able to select what workloads you would like to install into your Visual Studio.
 
-Once your choosen workloads are selected you can install them and they will be ready to use within Visual Studio.
+Once your chosen workloads are selected you can install them and they will be ready to use within Visual Studio.
+
+
+## Creating a Project in Visual Studio
 
 ![Workloads Ready to user](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInProgram.png)
 
+When you first create a new project in Visual Studio, you will be prompted to select the template you wish to use.
 
+![Visual Studio Config Settings](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioConfig.png)
 
+You will then need to enter a name for your project and select a location where you would like it to be saved to.
 
-From then on we will install the program and select which workloads we want to install with the program.
-For this course we will be using C# and will need the .NET Multi-platform App UI development.
+![Visual Studio Additional Information](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioAdditionalInfo.png)
 
+You will then need to select which framework you would like to use for this project.
 
+![Visual Studio Interface](https://github.com/Karenz0105/Portfolio/blob/main/images/VisualStudioInterface.png)
+
+Then your project will have been successfully created.
 
 
 ## Reflection
 
-As I had already installed Visual Studio previously I was able to skip most steps needed for installing it.
-All I had to do to my Visual Studio was modify it, so that I could install the workload that was needed for this module.
+Setting up the Personal Development Enviroment with Visual Studio was an easy task.
+
+I have used Visual Studio multiple times in the past, so I already had the program installed. But the workload that is needed for this module I hadn't installed.
+
+To install the workload into my program I was able to modify my version that allowed me to select workloads to install into my Visual Studio.
+
+I looked for the workload I needed to install which was '.NET Multi-platform App UI development' and installed it.
+
+Afterwards I was able to set up a test project to see how this new workload is like.
+
+Setting up a Personal Development Enviroment that I was going to use for this module was an easy task.
+
+I found it to be this way as we were going to be using Visual Studio, which I have used multiple times throughout the last few years.
+
+I happened to already have Visual Studio installed, so all I had to do was check if I had the workload that was needed for this module installed.
+
+The workload that we need is one called '.NET Multi-platform App UI development'.
+
+After checking my Visual Studio, I noticed I do not have this workload installed.
+
+So, my next task was to install it.
+
+To do this I first went to the 'Visual Studio Installer' and looked for my version of Visual Studio which is the 2022 version.
+
+I then selected to modify it, which allowed me to select workloads to install into my Visual Studio.
+
+After finding the workload I needed within the list I selected to install it.
+
+I then selected to create a new project to make sure it was properly installed and made a test version to see how it worked.
+
+This was fairly simple and easy for me to do, as I had previous experience with this.
 
 
 
-I had already installed Visual Studio, but didn't have this workload installed.
 
-To install the workload I needed, I first opened up the Visual Studio Installer and selected 'Modify'.
-This then opened an area where I could select workloads to install into my Visual Studio.
-After selecting the workload, I could install it into my Visual Studio.
 
-It is then ready to use.
+
