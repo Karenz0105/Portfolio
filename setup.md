@@ -87,19 +87,9 @@ Then your project will have been successfully created.
 
 ## Reflection
 
-Setting up the Personal Development Enviroment with Visual Studio was an easy task.
-
-I have used Visual Studio multiple times in the past, so I already had the program installed. But the workload that is needed for this module I hadn't installed.
-
-To install the workload into my program I was able to modify my version that allowed me to select workloads to install into my Visual Studio.
-
-I looked for the workload I needed to install which was '.NET Multi-platform App UI development' and installed it.
-
-Afterwards I was able to set up a test project to see how this new workload is like.
-
 Setting up a Personal Development Enviroment that I was going to use for this module was an easy task.
 
-I found it to be this way as we were going to be using Visual Studio, which I have used multiple times throughout the last few years.
+I found it to be this way as we are going to be using Visual Studio, which I have used multiple times throughout the last few years.
 
 I happened to already have Visual Studio installed, so all I had to do was check if I had the workload that was needed for this module installed.
 
@@ -115,12 +105,6 @@ I then selected to modify it, which allowed me to select workloads to install in
 
 After finding the workload I needed within the list I selected to install it.
 
-I then selected to create a new project to make sure it was properly installed and made a test version to see how it worked.
+I then selected to create a new project to make sure it was properly installed and made a test project to see how it worked.
 
 This was fairly simple and easy for me to do, as I had previous experience with this.
-
-
-
-
-
-
