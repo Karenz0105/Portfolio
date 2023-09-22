@@ -1,11 +1,13 @@
 # Workflow
 
+
 ## Aim
+
 
 The aim for this weeks entry is to understand and use the workflow tools within Github.
 
-## Using Workflow Tools
 
+## Using Workflow Tools
 
 
 ### Accessing the Project Board
@@ -18,6 +20,8 @@ The aim for this weeks entry is to understand and use the workflow tools within 
 
 ![Selecting Template](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow5.png)
 
+### Update task board
+
 ![Adding Tasks to Todo](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow7.png)
 
 ![Enter Tasks](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow8.png)
@@ -26,13 +30,17 @@ The aim for this weeks entry is to understand and use the workflow tools within 
 
 ![Todo board with tasks](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow10.png)
 
+### Accepting a task
+
 ![Convert to issue #1](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow11.png)
 
 ![Convert to issue #2](https://github.com/Karenz0105/Portfolio/blob/main/images/workload11.5.png)
 
-![Adding Comment](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow12.png)
-
 ![Selecting Assignees](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow13.5.png)
+
+### Updating task information
+
+![Adding Comment](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow12.png)
 
 ![Move Column](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow17.png)
 
@@ -41,19 +49,6 @@ The aim for this weeks entry is to understand and use the workflow tools within 
 ![Task in 'In Progress'](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow18.png)
 
 
-
-
-
-
-### Accepting a task
-
-
-
-### Updating task information
-
-
-
-### Update task board
 
 
 
