@@ -8,8 +8,7 @@ The aim for this weeks entry is to understand and use the workflow tools within 
 
 
 ## Using Workflow Tools
-
-
+  
 ### Accessing the Project Board
 
 To use the workflow tools within Github we first must go into our repositry.
@@ -43,7 +42,9 @@ Select on 'Board' from the 'Start from scratch' section.
 You should then name your project, you can also just keep the default name if you'd like. But it is recommended to name your projects so you don't lose them or forgot what they are about.
 
 Then select the green 'Create' button at the bottom right to create your task board.
-
+ 
+ 
+ 
 ### Update task board
 
 Now that we have created our task board, we should add some tasks into it.
@@ -75,6 +76,8 @@ The task we created will be added into the section you created it in.
 
 We can create multiple tasks and have them displayed in the section.
 
+
+
 ### Accepting a task
 
 We will then want to accept a task, or start a task.
@@ -102,6 +105,8 @@ Firstly select the task you want to do by clicking on the name.
 We will then have alot more things we can edit.
 
 On the right panel we can select the 'Assignees' section and it should bring up a menu of people in your project. Select who you want to be assigned to the task, or assign yourself.
+
+
 
 ### Updating task information
 
@@ -141,6 +146,8 @@ Once we have done this, the task should now be moved into the section we selecte
 
 We can repeat these same steps when we have completed the project to move it into the 'Done' section.
 
+
+
 #### Alternative way
 
 Similar to how we converted the task into an issue, we can do the same to select which section the task should be in.
@@ -157,17 +164,25 @@ On the right panel there is a part that says 'Status', we would select this and 
 
 // Probably say about changing the status of task to Done
 
+
+
 ### Commit changes
 
 // Unsure what means, unless it just means saving. This section might not be needed
+
+
 
 ### Checking work against Definition of Done (DoD)
 
 // Double check the DoD in the Github to see
 
+
+
 ### Making a pull request
 
 // Something about pull request
+
+
 
 ## Reflection
 
