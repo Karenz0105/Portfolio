@@ -6,20 +6,20 @@
 
 The aim for this weeks entry is to understand and use the workflow tools within Github.
 
-
-## Using Workflow Tools
   
-### Accessing the Project Board
+## Accessing the Project Board
 
-To use the workflow tools within Github we first must go into our repositry.
+To use the workflow tools within Github we first must go into our repository.
 
-After going into our repositry there should be a bar with different things we can access.
+After going into our repository there will be tabs for different things we can do.
 
 ![Accessing Projects](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow1.png)
 
-We want to select the 'Projects' section.
+We want to select the 'Projects' tab.
 
 This will then take us to a section on the website where we can create a new project.
+
+## Creating a Project
 
 ![Creating Project](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow2.png)
 
@@ -45,7 +45,7 @@ Then select the green 'Create' button at the bottom right to create your task bo
  
  
  
-### Update task board
+## Update task board
 
 Now that we have created our task board, we should add some tasks into it.
 
@@ -78,7 +78,7 @@ We can create multiple tasks and have them displayed in the section.
 
 
 
-### Accepting a task
+## Convert task to issue
 
 We will then want to accept a task, or start a task.
 
@@ -88,57 +88,64 @@ There are 2 ways to do this.
 
 ![Convert to issue #1](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow11.png)
 
-The first way we can do this is by selecting the 3 dots above the title of our task, when selected a menu will appear and at the top there will be an option saying 'Convert to issue'. select that and then there will be an option to select an item which should be the same name as your repositry. (Image below shows how it should be, even though it is another way to do it, they both get the same menu)
+The first way we can do this is by selecting the 3 dots above the title of our task, when selected a menu will appear and at the top there will be an option saying 'Convert to issue'. select that and then there will be an option to select an item which should be the same name as your repository. 
+
+// Add screenshot of the select an item
 
 ![Convert to issue #2](https://github.com/Karenz0105/Portfolio/blob/main/images/workload11.5.png)
 
-The second way we can convert a task to an issue is by selecting the name of the task. It will then give us a more detailed view of different things about the task. But we want to select the 'Convert to issue' area. It will then display a menu below where we can select an item. The item should be the same name as your repositry.
+The second way we can convert a task to an issue is by selecting the name of the task. It will then give us a more detailed view of different things about the task. But we want to select the 'Convert to issue' area. It will then display a menu below where we can select an item. The item should be the same name as your repository.
 
-Once you do either of these ways, you will be able to do more with the task.
+## Accepting a task
+
+We can now select who will be doing the task.
+
+This is done by selecting the task you want to assign somebody to.
 
 ![Selecting Assignees](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow13.5.png)
 
-To select who is doing the task, or to assign yourself to a task.
-
-Firstly select the task you want to do by clicking on the name.
-
-We will then have alot more things we can edit.
-
-On the right panel we can select the 'Assignees' section and it should bring up a menu of people in your project. Select who you want to be assigned to the task, or assign yourself.
 
 
+After selecting a task, there will be a section within the tasks interface where you can assign somebody.
 
-### Updating task information
+Select on the 'Assignees' part and a menu will appear that shows other people within the project.
+
+Select either yourself or somebody else to assign to the task.
+
+
+## Updating task information
 
 Now that we have created tasks and assigned them, we can add more information to them.
 
 ![Adding Comment](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow12.png)
 
-We can add a description or comments about the task.
+Within the tasks interface we can add a description or add comments about the task.
 
-We will select on the project from the section it is in by clicking the name.
+After inputting information into the description part of the task, we can select the 'Update comment' button to commit the changes about the task.
 
-Within the section it shows, we can write a description on the task. This could be a brief description or more indepth.
+We can also add comments in the section belon if needed.
 
-After writing what we need to, we can select the green 'Update comment' button to save the description.
-
-The section below this area is where we can leave comments on the task if needed.
-
-![Move Column](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow17.png)
+## Updating task status
 
 We should now move our task to the 'In Progress' section of the board.
 
+![Move Column](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow17.png)
+
 We can do this by selecting the 3 dots above the name of the task.
 
-Within the menu it brings up we can select the 'Move to column' part.
+A menu will appear, within this menu there will be a part that says 'Move to column. We will want to select this.
 
 ![Select Column](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow17.5.png)
 
-Once we select that, it will allow us to select from the 3 sections we have in the board already.
+Once selected, we will get options on what section we want to move the task into.
 
-As we set this task in the 'Todo' it will have a tick next to that.
+The task, depending on where you added it, should already have a tick.
 
-We want to select the 'In Progress' one though, as we have now started working on this task.
+But we will want to move the task from the section it is already in, into another one.
+
+Our task is currently in the 'Todo' section, but we will want to have it in the 'In Progress' section.
+
+To do this we will simply just click on the 'In Progress' option in the menu.
 
 ![Task in 'In Progress'](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow18.png)
 
@@ -148,37 +155,41 @@ We can repeat these same steps when we have completed the project to move it int
 
 
 
-#### Alternative way
+### Alternative way
 
 Similar to how we converted the task into an issue, we can do the same to select which section the task should be in.
 
-For this we would just select on the tasks name, this would bring up the area that allows us to add comments and such.
+For this we would just select on the tasks name, this would bring up the task interface.
 
-On the right panel there is a part that says 'Status', we would select this and it would give us the same 3 options on which section we want the task in.
+Within the interface, on the right side there is a part that says 'Status'. We can click on this to get the options on which section the task will be in.
 
 // Add screenshot for this
 
 
 
-### Complete accepted task
+## Complete accepted task
 
-// Probably say about changing the status of task to Done
+Once we have completed the current task we are working on, we can then move the task into the 'Done' section.
+
+This helps to show us what tasks we have already completed.
+
+// Screenshot of task in Done section
 
 
 
-### Commit changes
+## Commit changes
 
 // Unsure what means, unless it just means saving. This section might not be needed
 
 
 
-### Checking work against Definition of Done (DoD)
+## Checking work against Definition of Done (DoD)
 
 // Double check the DoD in the Github to see
 
 
 
-### Making a pull request
+## Making a pull request
 
 // Something about pull request
 
