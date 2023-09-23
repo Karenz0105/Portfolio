@@ -21,6 +21,8 @@ This will then take us to a section on the website where we can create a new pro
 
 ## Creating a Project
 
+We can now create our project.
+
 ![Creating Project](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow2.png)
 
 When you first go onto this page there is a green button that could say either 'Link a project' or 'New project'.
