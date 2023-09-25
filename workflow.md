@@ -3,8 +3,8 @@
 
 ## Aim
 
-
 The aim for this weeks entry is to understand and use the workflow tools within Github.
+
 
   
 ## Accessing the Project Board
@@ -18,6 +18,8 @@ After going into our repository there will be tabs for different things we can d
 We want to select the 'Projects' tab.
 
 This will then take us to a section on the website where we can create a new project.
+
+
 
 ## Creating a Project
 
@@ -47,11 +49,12 @@ Then select the green 'Create' button at the bottom right to create your task bo
  
  
  
-## Update task board
+## Updating the Task Board
 
 Now that we have created our task board, we should add some tasks into it.
 
 There are 3 sections on our task board automatically, these are:
+
 * Todo
 * In Progress
 * Done
@@ -80,7 +83,7 @@ We can create multiple tasks and have them displayed in the section.
 
 
 
-## Convert task to issue
+## Convert Task to Issue
 
 We will then want to accept a task, or start a task.
 
@@ -90,23 +93,25 @@ There are 2 ways to do this.
 
 ![Convert to issue #1](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow11.png)
 
-The first way we can do this is by selecting the 3 dots above the title of our task, when selected a menu will appear and at the top there will be an option saying 'Convert to issue'. select that and then there will be an option to select an item which should be the same name as your repository. 
+The first way we can do this is by selecting the 3 dots above the title of our task, when selected a menu will appear and at the top there will be an option saying 'Convert to issue'.
 
-// Add screenshot of the select an item
+![Select item for issue](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow19.png)
+
+Once that has been selected, another menu will appear that will say to select an item. The item within this menu should be the same name as your repository.
 
 ![Convert to issue #2](https://github.com/Karenz0105/Portfolio/blob/main/images/workload11.5.png)
 
 The second way we can convert a task to an issue is by selecting the name of the task. It will then give us a more detailed view of different things about the task. But we want to select the 'Convert to issue' area. It will then display a menu below where we can select an item. The item should be the same name as your repository.
 
-## Accepting a task
+
+
+## Accepting a Task
 
 We can now select who will be doing the task.
 
 This is done by selecting the task you want to assign somebody to.
 
 ![Selecting Assignees](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow13.5.png)
-
-
 
 After selecting a task, there will be a section within the tasks interface where you can assign somebody.
 
@@ -115,7 +120,7 @@ Select on the 'Assignees' part and a menu will appear that shows other people wi
 Select either yourself or somebody else to assign to the task.
 
 
-## Updating task information
+## Updating Task Information
 
 Now that we have created tasks and assigned them, we can add more information to them.
 
@@ -127,7 +132,9 @@ After inputting information into the description part of the task, we can select
 
 We can also add comments in the section belon if needed.
 
-## Updating task status
+
+
+## Updating Task Status
 
 We should now move our task to the 'In Progress' section of the board.
 
@@ -149,12 +156,6 @@ Our task is currently in the 'Todo' section, but we will want to have it in the 
 
 To do this we will simply just click on the 'In Progress' option in the menu.
 
-![Task in 'In Progress'](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow18.png)
-
-Once we have done this, the task should now be moved into the section we selected.
-
-We can repeat these same steps when we have completed the project to move it into the 'Done' section.
-
 
 
 ### Alternative way
@@ -163,40 +164,166 @@ Similar to how we converted the task into an issue, we can do the same to select
 
 For this we would just select on the tasks name, this would bring up the task interface.
 
+![Changing Status](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow20.png)
+
 Within the interface, on the right side there is a part that says 'Status'. We can click on this to get the options on which section the task will be in.
 
-// Add screenshot for this
+The task status will says which section it is already in.
+
+For our task, it currently is within the 'Todo' section, so we shall select the 'In Progress' section to have the status of the task changed.
 
 
 
-## Complete accepted task
+### Task Status Changed
 
-Once we have completed the current task we are working on, we can then move the task into the 'Done' section.
+![Task in 'In Progress'](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow18.png)
 
-This helps to show us what tasks we have already completed.
-
-// Screenshot of task in Done section
+Once one of the ways to change a task status has been done, the task will then appear within the section that was selected.
 
 
 
-## Commit changes
+## Creating a Branch for Accepted Task
 
-// Unsure what means, unless it just means saving. This section might not be needed
+When we want to work on a task from the task board and have assigned it to ourselves or have been assigned it, it is a good idea to create a new branch.
 
-
-
-## Checking work against Definition of Done (DoD)
-
-// Double check the DoD in the Github to see
+This is because it allows us to work on the task seperately from the main project.
 
 
 
-## Making a pull request
+### Accessing Tasks
 
-// Something about pull request
+![Selecting task](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow21.png)
+
+From the tabs in our repository, we want to select the 'Issues' one.
+
+After doing so, we can see all current tasks that we have.
+
+Click on the task you want to create a branch for.
+
+
+
+### Creating Branch
+
+A page should then load showing information about the task, it will show information about any changes made.
+
+![Create branch](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow22.png)
+
+On the right side of the page there is a section called 'Development'
+
+Underneath there is blue text saying 'Create a branch'
+
+Click on this text.
+
+![Create branch interface](https://github.com/Karenz0105/Portfolio/blob/main/images/Workflow23.png)
+
+We will then get an interface that allows us to create our branch for the task.
+
+We can set a name for the branch, select the destination and choose how we open the branch.
+
+Once all options have been filled out we can then create our branch by clicking the 'Create branch' button.
+
+
+### Creating a File in New Branch
+
+Once the new branch has been created we can now edit other files within the branch or add new items.
+
+![New File](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow30.png)
+
+If we create a new file within the branch, it will only appear there and won't appear in the main branch until we save it to be there.
+
+
+## Commit Changes
+
+Once we have made all the changes we want to make within the branch we can commit the changes.
+
+![Commit changes](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow31.png)
+
+There are multiple commiting changes we can do, we can :
+
+* Commit changes to just save the information within the branch
+* Commit changes and push the changes to the main branch
+* Commit changes and syncs changes to your local repository
+* Commit changes and create a pull request
+
+You should select the most appropriate one based on what you need it for.
+
+
+
+## Checking Work against Definition of Done (DoD)
+
+The Definition of Done (DoD) is a checklist that is good to use when comparing your work if you want to release the changes.
+
+There are multiple things that can be on the checklist, it is to be used as a guide to know if your changes within the branch are ready to be incoporated into the main branch.
+
+Things that may be on a Definition of Done (DoD) checklist include :
+
+* All acceptance criteria has been achieved
+* Unit Tests are more than 80% complete
+* Testing has passed, esspically functional testing
+* There is no know bugs, errors or defects
+* Documentiation of what has been done so far is up to date
+
+
+
+## Making a Pull Request
+
+We can now create a pull request.
+
+Pull requests are used to have other members in your team look over you work to see if it is fine to be marged into the main branch.
+
+
+
+### New Pull Request
+
+![New Pull Request](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow32.png)
+
+To create a pull request we first select on the 'Pull requests' tab within our repository.
+
+Within this section we can select the 'New pull request' button.
+
+
+
+### Creating Pull Request
+
+![Creating Pull Request](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow33.png)
+
+We will then get a page that will allow us to select which branch our pull request is about, once we select our branch we can select the 'Create pull request' button.
+
+
+
+### Viewing Pull Requests
+
+We can now look at what pull requests we have by selecting the 'Pull requests' tab again.
+
+![Pull request list](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow35.png)
+
+Within this section, any pull requests that have been made will be displayed.
+
+We can view these by selecting the name of the pull request.
+
+![Info on Pull Request](https://github.com/Karenz0105/Portfolio/blob/main/images/workflow36.png)
+
+The information about the pull request will now be displayed, we can view the comments and changes that have been made.
+
+If there has been any updates between the branch and the main it will tell us about it, so that we can merge the branches or new items within the branches together.
+
+We can leave a comment about the pull request that has been made.
+
+We can also close the pull request.
+
 
 
 
 ## Reflection
 
-// Probably say about tutorial and how I found creating the task board.
+Using and creating items within Github using the workflow tools was a little challenging.
+
+I found it to be this way, as I have not really used Github before.
+
+It eventually became easier to understand as I went on creating items.
+
+Creating and operating the task board was pretty easy to do, it is also a very handy tool to help keep track of tasks to be done and what has been done.
+
+Working with the branches and pull requests was a little difficult but I eventually got the hang of it.
+
+I learned quite alot about Github this week, which is very handy for future use.
