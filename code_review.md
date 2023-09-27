@@ -51,7 +51,7 @@ There were three areas we were to look at when reviewing the code.
 
 ### Does the code above violate any General Principles?
 
-This code doesn't violate any General Principles.
+This code does not violate any General Principles.
 
 ### Does this code violate any Best Practice Rules?
 
