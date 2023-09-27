@@ -45,31 +45,25 @@ class Ticket
 
 ## Problems
 
-The code above is the one I have selected to write about.
+The code I have selected to write about is above.
 
-There are 3 areas we were to look at when reviewing the code.
+There were three areas we were to look at when reviewing the code.
 
-### General Principles
+### Does the code above violate any General Principles?
 
-Does the code above violate any general principles?
+This code doesn't violate any General Principles.
 
-No, this code doesn't violate any general principles.
+### Does this code violate any Best Practice Rules?
 
-### Best Practice Rules
+This code does not violate any Best Practice Rules.
 
-Does this code violate any best practice rules?
+### Does this code exhibit any Code Smells?
 
-No, this code does not violate any best practice rules.
+This code has one Code Smell.
 
-### Code Smells
+The Code Smell that this code has is the 'Primitive Obsession' smell.
 
-Does this code exhibit any code smells?
-
-Yes, this code does have one code smell.
-
-The code smell that this code has is the 'Primitive Obsession' smell.
-
-This code smell has multiple things that the code could have making it have it, such as:
+This Code Smell has one or more of the following issues:
 
 * Replacing Primitive with Object
 * Replacing Type Code with Subclasses
@@ -82,7 +76,7 @@ This code smell has multiple things that the code could have making it have it, 
 The code has this problem within the first section of the code, where the data types are being set up.
 This is because it is setting up primitive data types to represent different parts of the ticket, making it possible that the code could become confusing and hard to maintain.
 
-Another problem within the code is the CallDate parts. It is being assigned DateTime within the start of the code then being assigned DateOnly values which could cause issues, as it is two different data types.
+Another problem within the code is the CallDate parts. It is being assigned DateTime within the start of the code then being assigned DateOnly values which could cause issues, as these are two different data types.
 
 ## Improved Version
 
@@ -111,9 +105,11 @@ class Ticket
 
 ## Solution
 
-To fix these problems within the code we should first fix the beginning section of the code, where the data types are being set to variables. For this part of code we would want this data to be gotten from classes, so to do this we will add a { get; set; } to each of the five variables.
+To fix these problems within the code we should first fix the beginning section of the code, where the data types are being set to properties. For this part of the code we would want this data to be retrieved using { get; set; }. We would do this by adding { get; set; } to each of the five properties.
 
-To fix the other issue with the CallDate would depend on if you need the time for the ticket. If there is only a need for the day, month and year the DateOnly data type would be fine to use as it just stores those pieces of information. But if the time was also required then using the data type DateTime would be better as it also records the time. But with the given code it looks as if only the day, month and year are being assigned so using the DateOnly data type will be fine.
+To fix the other issue with the CallDate would depend on if you need the time for the ticket. If there is only a need for the day, month and year the DateOnly data type would be fine to use as it only stores those pieces of information. But if the time was also required then using the data type DateTime would be better as it also records the time. But with the given code it looks as if only the day, month and year are being assigned so using the DateOnly data type will be fine.
+
+These solutions are beneficial to the code because it allows the code to have controlled access to the properties, which in turn helps to keep the code tidy and maintainable. It also helps to not mix different data types together, which could cause issues down the line within the program. Changing the CallDate data type to DateOnly helps to only assign the day, month and year values which help to keep the code simple. But if the time was needed for the tickets, that data type could easily be switched to DateTime, allowing the use of time along with the day, month and year.
 
 ## Reflection
 
