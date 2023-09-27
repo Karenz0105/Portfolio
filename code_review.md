@@ -53,7 +53,7 @@ There are 3 areas we were to look at when reviewing the code.
 
 Does the code above violate any general principles?
 
-This code doesn't violate any general principles.
+No, this code doesn't violate any general principles.
 
 ### Best Practice Rules
 
