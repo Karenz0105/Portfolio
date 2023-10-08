@@ -69,13 +69,65 @@ In the above example now, the code has been written slightly better. It now is a
 
 ### Formatting
 
+Another rule within Clean Code is Formatting, this rule is to help keep the code in a readable format. We achieve this by using proper indentation thoughout the code, using consistent spacing and keeping functions, classes and variables to consistent and clear names. The end goal with following the Formatting rule for Clean Code is to have code that is organised and readable to make it easier to maintain within the future or continuation of the project.
 
+```
+public class Program
+{
+static void Main()
+{
+Console.WriteLine("Hello World!");
+}
+}
+```
 
+Above is an example of how a piece of code could look if you don't format it correctly. It is still readable but it looks horrible and could become confusing if it was a larger piece of code with multiple if/else statements in it.
+
+```
+public class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
+```
+
+Above is the same as the previous example, but now with the formatting fixed! It now looks a lot better as it is easier to read and won't get confusing if more code is added that follows the correct formatting.
 
 
 ### Functions
 
+Within the Clean Code rules there is one about Functions. This one has a lot of information about how the code should be structured. Functions should be kept small and get right to the point, they should have only up to 20 lines, the smaller the function the better! This can be done by using blocks and indenting propertly, for example when using if, else or while statements to not have many lines. Within those lines have a function call, which would call to the needed function and it would help to keep the code very organised. Functions should also use descriptive names, it helps with keeping the code easy to read, helps to describe what the function does and also helps to eliminate the need for unnecessary comments! Functions should not cause any side effects or errors to the code! Make sure that they work correctly and don't cause anything that breaks your code or makes you have to write something new to work around it!
 
+```
+public class Employee
+{
+    public void DetermineEmployeePayCategory(decimal employeeSalary)
+    {
+        if (employeeSalary > 25000)
+        {
+            EmployeePayForOver25000();
+        }
+        else
+        {
+            EmployeePayGeneral();
+        }
+    }
+
+    private void EmployeePayForOver25000()
+    {
+        // No code as just example
+    }
+
+    private void EmployeesPayGeneral()
+    {
+        // No code as just example
+    }
+}
+```
+
+In the above example, it gives an idea of how to use functions properly and how much easier it can be to read the code and understand what it is doing.
 
 
 
@@ -87,7 +139,7 @@ KISS is a Software Engineering Principle that extends to Clean Code Principles. 
 
 ### YAGNI
 
-YAGNI is another Software Engineering Principle that extends to Clean Code Principles. YAGNI stands for "You Ain't Gonna Need It". The idea behind this rule is to not assume you will need certain pieces of code later and end up coding them earlier, because in most cases you might not need it or never end up using it, which will just end up making the program clunky with unnecssary code. 
+YAGNI is another Software Engineering Principle that extends to Clean Code Principles. YAGNI stands for "You Ain't Gonna Need It". The idea behind this rule is to not assume you will need certain pieces of code later and end up coding them earlier, because in most cases you might not need it or never end up using it, which will just end up making the program clunky with unnecessary code. 
 
 
 ## Coding Example
@@ -117,14 +169,32 @@ class Ticket
 
 ## How Code Implements Rules
 
+The above code is code I have refined from a previous week within this module.
+
+This code follows the six Clean Code rules that I previously wrote about
+
+* The code includes Meaningful Names for any entry that needs them, such as the variables, class and functions. All the given names for each item are very easy to understand and follow, allowing us to know what each is for and what is does/gains.
+* The code doesn't include any Comments as it is unnecessary for the small piece of code, but also because everything within the code is easy to understand just by reading each line!
+* The code follows a good Format as there is proper indentation, use of white space and follows a consistant flow which makes it easy for us to read.
+* The code uses Functions correctly as it has kept the function small and only includes what is needed for it, it doesn't overcomplicate what it is getting and doesn't have anything extra that isn't needed.
+* The code follows the KISS rule as the above code is simple and doesn't include any complex elements within it making it easy for us to come back to work on it at any time.
+* The code follows the YAGNI rule as it doesn't include any unused code or extra code that would take up space.
+
+Even though it is a small piece of code it is able to follow all the previously explained rules, as the code grew it would be easy to keep to these rules and maintain them.
+
 
 
 ## Doxygen
 
 
 
-## No need for Comments
-
-
 
 ## Reflection
+
+
+
+
+
+## References
+
+Clean Code ([Martin, 2009](https://napier.primo.exlibrisgroup.com/permalink/44NAP_INST/13v8mut/alma9923581530002111))
