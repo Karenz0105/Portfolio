@@ -77,18 +77,43 @@ In the above example now, the code has been written slightly better. It now is a
 
 
 
+
+
 ### KISS
+
+KISS is a Software Engineering Principle that extends to Clean Code Principles. KISS stands for "Keep It Simple, Stupid". The general idea of this is to help with Clean Code to eliminate any complexity that isn't needed within the code. This is so if you were to come back to the program at a later date, you could still understand what the code is doing without questioning it.
 
 
 
 ### YAGNI
 
-
+YAGNI is another Software Engineering Principle that extends to Clean Code Principles. YAGNI stands for "You Ain't Gonna Need It". The idea behind this rule is to not assume you will need certain pieces of code later and end up coding them earlier, because in most cases you might not need it or never end up using it, which will just end up making the program clunky with unnecssary code. 
 
 
 ## Coding Example
 
-
+```
+class Ticket
+{
+    public int TicketNo { get; set; }
+    public string Customer { get; set; }
+    public DateOnly CallDate { get; set; }
+    public string Description { get; set; }
+    public int Priority { get; set; }
+    
+    public static void Main(string[] args)
+    {
+        var ticket = new Ticket
+        {
+            TicketNo = 1,
+            Customer = "John Doe",
+            CallDate = new DateOnly(2023, 4, 1),
+            Description = "Lost password",
+            Priority = 1
+        };
+    }
+}
+```
 
 ## How Code Implements Rules
 
