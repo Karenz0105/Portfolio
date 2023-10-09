@@ -186,12 +186,46 @@ Even though it is a small piece of code it is able to follow all the previously 
 
 ## Doxygen
 
+Using Doxygen we are able to create diagrams and gain information about our programs we work on.
+
+![Doxygen1](https://github.com/Karenz0105/Portfolio/blob/main/images/D1.png)
+
+The above screenshot provides a Class List from our program that Doxygen has generated. It provides an overview of the classes within the program and gives a description for some.
+
+![Doxygen2](https://github.com/Karenz0105/Portfolio/blob/main/images/D2.png)
+
+The above screenshot provides a view of class within the Doxygen output. This gives us a detailed description on what the class does and provides us with the functions that is used within the class, as well as which variables the function uses.
+
+![Doxygen3](https://github.com/Karenz0105/Portfolio/blob/main/images/D3.png)
+
+The above screenshot provides a view of classes that are within a folder in the program. It provides the name of each and a description of what the class does, if available. You are able to click on the class to learn more about it.
+
+![Doxygen4](https://github.com/Karenz0105/Portfolio/blob/main/images/D4.png)
+
+The above screenshot provides a file reference view of a class within the project for a class called Constants, it has a description below saying what it is for.
+
+![Doxygen5](https://github.com/Karenz0105/Portfolio/blob/main/images/D5.png)
+
+The above screenshot provides a file reference view of the PositionStatus class, it provides the description for the class.
+
+```
+//! Class to store values into table.
+
+[Table("Position Status")]
+
+public class PositionStatus
+{
+    // ...
+}
+```
+
+The way we were able to add our own description to classes was with comments like in the above example.
 
 
 
 ## Reflection
 
-
+Using Doxygen was a big learning curve this week, I didn't manage to fully get the hang of it but I believe with time using the program I will better understand how it works and how to properly use it to gain useful information about a program I am working on.
 
 
 
