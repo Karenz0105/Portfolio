@@ -72,7 +72,8 @@ namespace UnitTest_UpdatedDisplay_ReturnCorrectDisplay
         public void Test1()
         {
 
-            // Unit Test to check if the UpdateDisplay() function changes the display based on if a user provides a correct guess
+            // Unit Test to check if the UpdateDisplay() function changes the display based
+            // on if a user provides a correct guess
 
             string gameType = "Easy";
 
@@ -129,7 +130,8 @@ namespace UnitTest_UpdatedDisplay_ReturnCorrectDisplay
         public void Test2()
         {
 
-            // Unit Test to check if the UpdateDisplay() function changes the display based on if a user provides an incorrect guess
+            // Unit Test to check if the UpdateDisplay() function changes the display based
+            // on if a user provides an incorrect guess
 
             string gameType = "Easy";
 
