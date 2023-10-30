@@ -76,7 +76,8 @@ private List<TeamPartners> GetTeamPartnerDetails()
 private List<TeamPartners> Search(List<TeamPartners> teamPartners, string searchCriteria)
 {
 	// Filter Team Partners by name
-	List<TeamPartners> filteredTeamPartners = teamPartners.Where(value => value.name.Contains(searchCriteria)).ToList();
+	List<TeamPartners> filteredTeamPartners = teamPartners.Where
+	(value => value.name.Contains(searchCriteria)).ToList();
 
 	// Return the filtered Team Partners
 	return filteredTeamPartners;
