@@ -201,9 +201,9 @@ XAML
 
 ## Description of Code
 
-In the Class section of code, it is being used to set up any variables we will need and will be used throughout the program, mostly in the piece of code I was writting.
+In the Class section of code, it is being used to set up any variables we will need and will be used throughout the program, mostly in the piece of code I was writing.
 
-In the TeamPartnersView section of code, it is basically the main section of code for the program to run what I was working on. The code firsts sets up some lists and gets the information about the Team Partners and sets up the display labels. The code then goes on depending which button you select on the screen, if you select the 'Clear' button it will clear all labels. If you select the 'Search button' it will search for the information you have provided in the search bar and if there is a match it will then be displayed into the list view. That piece of code also related to the piece of code at the bottom that searches the list and filters the items for the search. Then the 'View button' code checks if an item in the list has been selected, it will then display the information corresponding to that selected item.
+In the TeamPartnersView section of code, it is basically the main section of code for the program to run what I was working on. The code first sets up some lists and gets the information about the Team Partners and sets up the display labels. The code then goes on depending which button you select on the screen. If you select the 'Clear' button it will clear all labels. If you select the 'Search button' it will search for the information you have provided in the search bar and if there is a match it will then be displayed into the list view. That piece of code also related to the piece of code at the bottom that searches the list and filters the items for the search. Then the 'View button' code checks if an item in the list has been selected. It will then display the information corresponding to that selected item.
 
 In the XAML section of code, it just lays out how the user interface looks. The way it is set up is that the search bar is at the top of the screen, then underneath is the Search and Clear buttons, then the ListView, then the View button and then all the labels to display information.
 
@@ -225,7 +225,7 @@ Once we are in this section of the program we can see multiple things, such as :
 
 ![Searching "CEO"](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(12).png)
 
-In the search bar we can put in a search criteria that we wish to searh, in the screenshot I selected to search for "CEO". From that search there are teo Team Partners that come up.
+In the search bar we can put in a search criteria that we wish to searh, in the screenshot I selected to search for "CEO". From that search there are two Team Partners that come up.
 
 ![Selecting and viewing Team Partner](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(13).png)
 
@@ -274,7 +274,7 @@ namespace UnitTest_TeamPartners_DisplayUpdate
 
 The above Unit Test that is being performed is to check if the display would be correctly updated once the View button is clicked.
 
-In the test we are comparing the values match each other as it is to represent that those values are already stored within the system.
+In the test we are comparing the values to see if they match each other as it is to represent that those values are already stored within the system.
 
 The Assert.Equal() parts of the code are comparing that the values entered would match.
 
@@ -282,16 +282,16 @@ In this case the Unit Test passes.
 
 ## Code Review
 
-From the code review that happened with my code this week, it was given that my code is much better than last week and flows nicely. There isn't any issues that the code reviewer spotted.
+From the code review that happened with my code this week, it was given that my code is much better than last week and flows nicely. There aren't any issues that the code reviewer spotted.
 
-The code review I did on another team members code was good, they had followed Clean Code principles and didn't have anything wrong seeming with their code.
+The code review I did on another team members code was good, they had followed Clean Code principles and didn't have anything wrong with their code.
 
 ## Reflection
 
 Continuing on this week with the project was much easier as I decided to focus on just the task I selected last week. I decided to do this as I could produce a better piece of code for the project and I didn't want to overwhelm myself with extra sections of code to work on.
 
-After thinking about the program more this week, I realised I had previously made something similar that could help me with the coding. As last year in College I created a program that you could select a user from a listbox and display their information, only difference with this program was that I also needed to put in the search feature and make it work with that but it was easy enough to do once I played around with the code.
+After thinking about the program more this week, I realised I had previously made something similar that could help me with the coding. Last year in College I created a program that you could select a user from a listbox and display their information, the only difference with this program was that I also needed to put in the search feature and make it work with that but it was easy enough to do once I played around with the code.
 
-My overall opinion on the user story I selected and code I made for it, is that I did pretty well and have created a piece of code that mostly follows the criteria, atleast in my opinion it does follow it but it depends on how strict the criteria is meant to be.
+My overall opinion on the user story I selected and code I made for it, is that I did pretty well and have created a piece of code that mostly follows the criteria, at least in my opinion it does follow it but it depends on how strict the criteria is meant to be.
 
-As these next few weeks go on with the project, I am hoping to improve my coding skills more and put in to practise Clean Coding principles more.
+As these next few weeks go on with the project, I am hoping to improve my coding skills more and practice Clean Coding principles more.
