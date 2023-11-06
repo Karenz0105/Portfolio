@@ -128,17 +128,33 @@ public partial class TeamPartnersView : ContentPage
 	{
 		var teamPartners = new List<TeamPartners>
 		{
-			new TeamPartners { name = "John Smith", id = 1, organisation_id = 00001, team_id = 01 , type = "CEO", country_id = 45, contact_email = "johnsmith@gmail.com", contact_telephone = 01111234567, status = "Requested"} ,
-			new TeamPartners { name = "Alice Gates", id = 2, organisation_id = 00002, team_id = 02, type = "Staff", country_id = 32, contact_email = "alicegates@gmail.com", contact_telephone = 01321234767, status = "Confirmed" } ,
-            		new TeamPartners { name = "Phil Green", id = 3, organisation_id = 00004, team_id = 03 , type = "CEO", country_id = 23, contact_email = "philgreen@gmail.com", contact_telephone = 01567159621, status = "Requested"} ,
-            		new TeamPartners { name = "Logan Brown", id = 4, organisation_id = 00004, team_id = 04, type = "Junior", country_id = 27, contact_email = "loganbrown@gmail.com", contact_telephone = 01237569842, status = "Confirmed" }
+			new TeamPartners { name = "John Smith", id = 1, organisation_id = 00001,
+			team_id = 01 , type = "CEO", country_id = 45, contact_email = "johnsmith@gmail.com",
+			contact_telephone = 01111234567, status = "Requested"} ,
+			new TeamPartners { name = "Alice Gates", id = 2, organisation_id = 00002,
+			team_id = 02, type = "Staff", country_id = 32, contact_email = "alicegates@gmail.com",
+			contact_telephone = 01321234767, status = "Confirmed" } ,
+            		new TeamPartners { name = "Phil Green", id = 3, organisation_id = 00004,
+			team_id = 03 , type = "CEO", country_id = 23, contact_email = "philgreen@gmail.com",
+			contact_telephone = 01567159621, status = "Requested"} ,
+            		new TeamPartners { name = "Logan Brown", id = 4, organisation_id = 00004,
+			team_id = 04, type = "Junior", country_id = 27, contact_email = "loganbrown@gmail.com",
+			contact_telephone = 01237569842, status = "Confirmed" }
         	};
 		return teamPartners;
 	}
 
 	private List<TeamPartners> Search(List<TeamPartners> teamPartners, string searchCriteria)
 	{
-        FilteredTeamPartners = GetTeamPartnerDetails().Where(value => value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.organisation_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.team_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.type.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.country_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.contact_email.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.contact_telephone.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)).ToList();
+        FilteredTeamPartners = GetTeamPartnerDetails().Where(
+	value => value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.organisation_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.team_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.type.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.country_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.contact_email.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+	|| value.contact_telephone.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)).ToList();
 
         return FilteredTeamPartners;
 	}
