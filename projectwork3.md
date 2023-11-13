@@ -17,7 +17,7 @@ For this user story there are some main criteria :
 
 ## Progress so far
 
-Sadly I wasn't able to complete this section of the program within the week. It was a much more demanding task than I originally thought but I got the basics down of being able to search some items as I used the code I created in the previous week as a guide.
+Sadly, I wasn't able to complete this section of the program within the week. It was a much more demanding task than I originally thought but I got the basics down of being able to search some items as I used the code I created in the previous week as a guide.
 
 Currently in the program you can search just the name right now and see in the list the name and request type. You can also view when the item is selected in the list, but not much details appear as they are not all set yet.
 
