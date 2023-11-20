@@ -327,7 +327,21 @@ private List<Equipment> Search(List<Equipment> equipment, string searchCriteria)
 {
     try
     {
-        FilteredOperations = equipment.Where(value => value.id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.equipment_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.requested_by.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.request_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.authorised_by.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.start_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.end_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.rota_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.operation_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.type.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.make.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.model.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase) || value.serial_number.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)).ToList();
+        FilteredOperations = equipment.Where(value => value.id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.equipment_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.requested_by.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.request_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.authorised_by.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.start_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.end_date.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.rota_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.operation_id.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.name.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.type.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.make.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.model.Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)
+|| value.serial_number.ToString().Contains(searchCriteria, StringComparison.OrdinalIgnoreCase)).ToList();
         return FilteredOperations;
     }
     catch (Exception ex)
