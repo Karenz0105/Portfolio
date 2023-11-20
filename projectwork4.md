@@ -19,6 +19,7 @@ The main criteria for this user story is :
 ## Progress from Previous Week
 
 Compared to last week I have the issue much more complete. It doesn't meet all the criteria that the user story wanted, but that is because I do not know how to get some of those things to work using .NET Maui. Such as the highlighting of new requests in a list.
+All other criteria though is mostly met, some might not be exact.
 
 
 ## Code Snippet
@@ -131,6 +132,7 @@ XAML
 </ScrollView>
 ```
 
+UpdateOperationDetails
 ```c#
 private void UpdateOperationDetails()
 {
@@ -160,6 +162,7 @@ private void UpdateOperationDetails()
 }
 ```
 
+SaveButton
 ```c#
 private void SaveButton_Click(object sender, EventArgs e)
 {
@@ -291,6 +294,7 @@ private void SaveButton_Click(object sender, EventArgs e)
 }
 ```
 
+EditButton
 ```c#
 private void EditButton_Click(object sender, EventArgs e)
 {
@@ -317,6 +321,7 @@ private void EditButton_Click(object sender, EventArgs e)
 }
 ```
 
+Search
 ```c#
 private List<Equipment> Search(List<Equipment> equipment, string searchCriteria)
 {
@@ -333,20 +338,57 @@ private List<Equipment> Search(List<Equipment> equipment, string searchCriteria)
 }
 ```
 
-```c#
-
-```
-
 ## Description of Code
 
+In the XAML code above, it is showing the layout of how our interface looks for this section of the program. We have included some good features for users that use the program. Such features are:
+* Scroll bar
+* Search bar
+* View button
+* Edit button
+* Save button
 
+Next part of code is a method we have that updates the operation details to be the changed details we get from when a user edits the details about an operation.
+
+Then we have the code for the Save button. This code sets the values that have been entered to overwrite the old information, it then makes the entry areas and the labels for those invisible.
+
+Then there is the code for the Edit button. This is just a small section of the code but shows that when the user selects to edit an operation it will provide an entry box to change the information in, that entry box will be pre-filled with the data that the operation already has.
+
+The final section of code is how the Search works searching if what we search is within any information that is stored. It checks the Equipment list and will send back if there is one that fits the description.
 
 ## Screenshots of Program
 
+![Selecting view AssignEquipment](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(14).png)
 
+In the above screenshot we select the 'view AssignEquipment button' to get to the section of the program we want to be in.
+
+![View of Program section](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(15).png)
+
+Once we have clicked the button, we will be taken to the page.
+
+![Searching](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(17).png)
+
+We can now search to find current Operations that are going on, once we have searched one we can select it and view it to see all the information.
+
+![Editing](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(21).png)
+
+Once we have selected view on the one we want to, we would then get the choice to edit the selected information. When we have selected to view we will be provided input boxes that are pre-filled with the information already stored. We can then edit them and then save the newly updated information.
 
 ## Code Review
 
+From the review I got on my code, it is mostly good. There are some minor fixes that could be made but everything works fine. The only minor things to fix would be the setting of XAML elements to invisible or visible, but I think it is fine how it is.
 
+The code review I did on others code was good, everyone over the weeks have been improving on how they code and getting better each time.
 
 ## Reflection
+
+Over this past week working on this section of the code I have learned many things.
+I learned how to make it so a .NET Maui page could be scrollable, which will come in handy.
+I also learned how to edit items and save the new inputs, then view those inputs. It did take a while to get there but I'm very happy with how I got it to work.
+From the start of this project I have improved more and more each week, which I am very happy about as I am making good progress and learning new elements that are used in .NET Maui.
+Next week is the final week of the project and I hope to use all I have learned to create the best piece of work I can. Even if I don't it will still be a much better piece of work than from when I started.
+
+One issue I had this week was trying to get the highlighting a certain request in a list to work, I did try to get it to work but the way .NET Maui is made it very hard to do and work as I wanted it to. I do hope maybe to figure it out another day, but I am happy with everything else I was able to achieve this week.
+
+This user story was an interesting one as I was able to use previous code to help get a base for it, then just had to expand on the code by adding new elements to enhance what the code was doing.
+
+Overall, I am very proud with what I achieved this week and I look forward to continuing improving my skills next week.
