@@ -4,8 +4,6 @@ The aim for this week is to finish off a final user story and reflect on portfol
 
 ## Issue Working On
 
-As an UNDAC Analyst, I want to view the status of current and completed operations so that I can evaluate the effectiveness of the mission
-
 The user story I selected to work on this week was "As an UNDAC Analyst, I want to view the status of current and completed operations so that I can evaluate the effectiveness of the mission."
 
 The goal for this user story is for an Analyst user to view operations and evaluate how effective the mission has been.
@@ -16,7 +14,7 @@ The main criteria for this user story is :
 * Operation details can be viewed
 
 
-## Code
+## Code Snippet
 
 Class
 ```c#
@@ -193,10 +191,56 @@ private void ViewButton_Click(object sender, EventArgs e)
 }
 ```
 
-## Description
+## Description of Code
 
+In the above Class code, it shows all the variables that are used within this section of the program, by getting and setting them to be used.
+
+In the XAMl code above, it shows the layout of how the interface looks for this section of the program. It is a very simple layout that includes:
+* View Button
+* Clear Button
+* List
+* Display area
+
+In the last section of code, it shows how the program runs. The way this section of code works is that when a user selects an item in the list then clicks view, the program will get the information associated with the selected item and display it for the user to see. There is also a clear button for when a user wants to clear what has already been displayed.
+
+## Screenshots of Program
+
+![Selecting view OperationalStatus](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(23).png)
+
+In the above screenshot we select the 'view OperationalStatus' button to get to the section of the program that we want to be in.
+
+![OperationalStatus Interface](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(24).png)
+
+Once we have selected the button to get to the section of the program we want to be in, we are greeted with this interface. It shows a 'View' and 'Clear' button. Underneath a list with the operations and below the list a display area that will display the operation information.
+
+![Viewing Operation 1](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(25).png)
+
+We can view an operation by first selectin in the list box which operation, in the above screenshot we select 'Operation 1', then we select the 'View' button. In the display area, the informaiton will now be updated to the information for that operation.
+
+![Viewing Operation 2](https://github.com/Karenz0105/Portfolio/blob/main/images/Screenshot%20(26).png)
+
+Viewing another operation is just the same as above, we will just select a different operation and then select the 'View' button. The information in the display area will then be updated to display the information for that operation.
 
 ## Code Review
 
+For the final code review on my code, it was said that it is good and that it has improved each week since the start of the team project.
+
+For the last code review I did, I was very impressed by the others with how much they have improved with what they have been coding.
 
 ## Reflection
+
+Over these past few weeks working on the Team Project, I have learned a lot about coding better than I had before. I have been able to put into practise many of the things we learned in the lectures and improve on them each week, by learning what I was doing wrong and with feedback from the others in the team.
+
+I am proud of the progress I have made, even if it took a little while to get there on some parts, it was still a good learning experience and I am happy to have progressed from the start to now.
+
+This week with my final piece for the team project, I selected one that seemed easy but that I could improve with what I had done in the previous weeks. I was able to notice when I repeated sections of code and made the coding the best I could for this last submission.
+
+Overall, from the start of this module to now I have learned many useful things to help with being a Software Engineer. Many things that I can further study about and learn more on and other things that I can put into practise and improve on.
+
+From when I did my first portfolio to now, I have improved much more than I thought I would have. At the start of the portfolios I was unsure if I was doing it correctly, everything was feeling like a riddle. But as it went on and asking others to make sure, checking the guides, I became more confident that I was doing the portfolios correctly.
+
+I am very proud of all the progress I have made with the portfolios, they will be an excellent resource to look back on and provide as evidence for working in a team setting and with using new equipment that I haven't used before, like Github.
+
+My final notes on all that I have done in this module and how it has went is that it was a bumpy ride, there was some difficult moments. But as with everything, it takes time and practise to get through it. I know I can improve much more with my coding and with using Github, but for just the past few months of doing so for this module I am happy with the progress that has been made.
+
+
