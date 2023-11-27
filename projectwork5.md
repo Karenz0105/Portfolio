@@ -41,7 +41,8 @@ XAML
             <Button Text="Clear" Clicked="ClearButton_Click" FontSize="18"/>
         </StackLayout>
 
-        <ListView x:Name="operationsListView" ItemsSource="{Binding operationalStatuses}" ItemSelected = "ListView_ItemSelected">
+        <ListView x:Name="operationsListView" ItemsSource="{Binding operationalStatuses}"
+        ItemSelected = "ListView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -57,7 +58,8 @@ XAML
         </ListView>
 
         <StackLayout>
-            <Label Text="Operation Information : " FontSize="20" TextDecorations="Underline" FontAttributes="Bold"/>
+            <Label Text="Operation Information : " FontSize="20"
+            TextDecorations="Underline" FontAttributes="Bold"/>
             <Label Text=""/>
             <Label x:Name="nameLabel" FontSize="18"/>
             <Label x:Name="idLabel" FontSize="18"/>
@@ -110,8 +112,14 @@ private List<OperationStatuses> GetStatus()
     {
         var status = new List<OperationStatuses>
         {
-            new OperationStatuses { name = "Operation 1", id = 1, operational_team_id = 1, date = new DateOnly(2023, 11, 15) , status = "Complete", latitude = 40, longitude = 118, comments = "Completed Operation" },
-            new OperationStatuses { name = "Operation 2", id = 2, operational_team_id = 2, date = new DateOnly(2023, 11, 24) , status = "Ongoing", latitude = 90, longitude = 139, comments = "Ongoing Operation" }
+            new OperationStatuses { name = "Operation 1", id = 1,
+            operational_team_id = 1, date = new DateOnly(2023, 11, 15) ,
+            status = "Complete", latitude = 40, longitude = 118,
+            comments = "Completed Operation" },
+            new OperationStatuses { name = "Operation 2", id = 2,
+            operational_team_id = 2, date = new DateOnly(2023, 11, 24) ,
+            status = "Ongoing", latitude = 90, longitude = 139,
+            comments = "Ongoing Operation" }
 
 
         };
